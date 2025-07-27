@@ -30,24 +30,37 @@ First of all, people realize one does not need to stagger the characters anymore
 Then they realized we dont need to bend our rists together when typing, causing long term injury. So they split the keyboards, giving us keyboards like the [ForScience keyboard](https://github.com/diimdeep/awesome-split-keyboards/blob/master/img/ForScience.jpg)
 Then they realized that maybe the want to keep the stagger, but int the more natural **vertical** axis. Giving us the [Corne by Foostan](https://github.com/foostan/crkbd).
 
-Looking at these keybaords one might notice that some keys are missing. This is due to the ability to layer keyboards on top of each other (digitally), utilizing keys to transfer between layouts, just as the SHIFT key changes the entire character layout to be capitalized. For me the ability to layer layouts was the huge selling point to build one of those.
+Looking at these keybaords one might notice that some keys are missing. This is due to the ability to layer keyboards on top of each other (digitally), utilizing keys to transfer between layouts, just as the SHIFT key changes the entire character layout to be capitalized. For me the ability to layer layouts was the huge selling point to build one of those. So I did. 
+I have to admit I have not used tried a new layout, but am leaning towards DVORAK or HALMAK. 
+
+For now, I will showcase my work and recent journey into building my own best producive and ergonomic keyboard - 
 
 ---
 
-# Versions I built before the Cornelius V1
+# THE CORNELIUS V1
+### Features
+1. 42 programmable keys
+2. 10 degree tilt between keyboard sides
+3. Utelizes the RP2040 MCU
+4. Has a screen to indicate the corrent layer
+5. Also has a mouse configuration
+6. Utelizes JanLunge's POG for firmware programming
+7. RP2040-zero is swappable quickly if burned. No soldering required.
+
+### Versions I built before the Cornelius V1
 After building my first macropad, [posted on my website](https://www.asafslaboratory.com/?p=416) I started building full keyboards.
 
-### 1. REDOX 2
+#### 1. REDOX 2
 Back in 2022 I found [this youtube video](https://www.youtube.com/watch?v=Cwkf7HFcUkY&list=LL&index=162&t=321s&ab_channel=Shiftux) by Shiftux which ignited my passion for split keyboards. Here was the initial result:
 ![IMG_20220803_204759](https://github.com/user-attachments/assets/691f5f37-5480-4b8d-94fc-09781fe83794)
 
 I took apart an old keybaord birthday present for the switches and put it together. After seeing it worked I have decided to pivot to a smaller form factor keybaord, which led me to the my next try
 
-### 2. REDOX 2.2
+#### 2. REDOX 2.2
 I wanted to make the keeb smaller and encorporate a big scroller wheel next to the thumb so I designed and built this:
 ![20230714_192518-EDIT](https://github.com/user-attachments/assets/22aae594-69f4-4320-affc-abb382b69106)
 
-### 3. Choco REDOX
+#### 3. Choco REDOX
 Next I wanted a lower profile using Gateron low profile switches, so I designed and built this:
 ![20230825_115939](https://github.com/user-attachments/assets/21c1f35c-0db1-4b83-9eda-88e6c5e54850)
 
@@ -55,28 +68,21 @@ I had used this keyboard for a long time, until I decided to go smaller, towards
 The split keyboards are a delight, but aren't easy to carry around without a proper case. 
 
 That brings me to the CORNELIUS V1. Which is really useful and fun.
----
 
-# Current layout of the Cornelius 1
+### Current layout of the Cornelius 1
  I keep changing the layout from time to time, trying to find the best one for me, but here it is for now, using JanLunge's [POG](https://github.com/JanLunge/pog):
-### BASE LAYER:
+#### BASE LAYER:
 <img width="833" height="304" alt="image" src="https://github.com/user-attachments/assets/f685f47d-6469-4656-92b5-3186e1002344" />
 
-### NAVIGATION LAYER:
+#### NAVIGATION LAYER:
 <img width="833" height="304" alt="image" src="https://github.com/user-attachments/assets/d602049c-6659-47e4-bfb2-bd02c570a205" />
 
-### SYMBOL LAYER:
+#### SYMBOL LAYER:
 <img width="833" height="304" alt="image" src="https://github.com/user-attachments/assets/d2c284a8-049d-4659-88ad-ebb24d6a971c" />
 
+---
 
-
-
-
-
-
-
-
-
+# Build it yourself
 
 ## Components
 1. RP2040-Zero
@@ -89,5 +95,5 @@ That brings me to the CORNELIUS V1. Which is really useful and fun.
 8. 1N4148 Diods
 9. Rubber Feet
 
-
+TODO - Rest of guide
 
