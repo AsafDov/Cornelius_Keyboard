@@ -38,3 +38,6 @@
 // BOOT button also works: hold BOOT, tap RESET).
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
+
+// The onboard WS2812 (GP16) uses the standard GRB byte order (QMK's default).
+// Checked on this board: with RGB order, green showed as pink and orange as green.

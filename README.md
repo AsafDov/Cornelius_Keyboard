@@ -87,6 +87,9 @@ middle). The Cornelius has 42 keys, so it doesn't have those four.
 #### SYMBOL LAYER (hold right middle thumb)
 ![Symbol layer](docs/layers/layer-2.png)
 
+The RP2040-Zero's onboard LED shows which layer is active: **green-teal** for base,
+**orange** for navigation, **yellow** for symbols. Its brightness can be changed in Vial's Lighting tab.
+
 Layers 3-7 are empty (all transparent). Until November 2026 the Cornelius ran KMK, configured with
 JanLunge's [POG](https://github.com/JanLunge/pog). That firmware and its layout are kept on the
 [`kmk` branch](../../tree/kmk) (tag `kmk-final`).

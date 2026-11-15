@@ -12,7 +12,7 @@
 
 ## A: Cornelius V1, `rp2040zero` (handwired)
 
-- Controller: **Waveshare RP2040-Zero** (RP2040, 2 MB flash), with an onboard WS2812 LED on GP16 (unused)
+- Controller: **Waveshare RP2040-Zero** (RP2040, 2 MB flash). Its onboard WS2812 LED (GP16, GRB byte order) shows the active layer: green-teal = base, orange = nav, yellow = symbols. Brightness defaults to 36/255 (max 40), adjustable in Vial's Lighting tab.
 - **One controller for both halves.** No split link, no handedness setting. Each
   half's switches run straight to the controller's pins (4 rows + 6 columns per half,
   all 20 edge GPIOs used).

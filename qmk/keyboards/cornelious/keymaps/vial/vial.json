@@ -2,7 +2,7 @@
   "name": "Cornelious",
   "vendorId": "0xFEED",
   "productId": "0xC0E1",
-  "lighting": "none",
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 12

@@ -76,7 +76,7 @@ static const qs_default_t qs_defaults[] = {
     {  4, 175 },  // AUTO_SHIFT_TIMEOUT
     {  5, 5 },  // ONESHOT_TAP_TOGGLE
     {  6, 5000 },  // ONESHOT_TIMEOUT
-    {  7, 500 },  // TAPPING_TERM
+    {  7, 225 },  // TAPPING_TERM
     {  8, 0 },
     {  9, 10 },  // MOUSEKEY_DELAY
     { 10, 20 },  // MOUSEKEY_INTERVAL
