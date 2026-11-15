@@ -90,6 +90,14 @@ middle). The Cornelius has 42 keys, so it doesn't have those four.
 The RP2040-Zero's onboard LED shows which layer is active: **green-teal** for base,
 **orange** for navigation, **yellow** for symbols. Its brightness can be changed in Vial's Lighting tab.
 
+**Window switching:** hold the navigation thumb and tap Tab to open the Alt+Tab
+switcher. Keep holding the thumb and tap Tab again to step to the next window,
+just like holding down Alt. Let go of the thumb to switch. While the switcher is
+open, the arrow keys move around it and Esc closes it. This comes from the
+firmware in this repo (`qmk/keyboards/cornelious/cornelious.c`), so it works on
+board A. On the W-Corne's vendor firmware the same key is a plain Alt+Tab, which
+only flips between the last two windows.
+
 Layers 3-7 are empty (all transparent). Until November 2026 the Cornelius ran KMK, configured with
 JanLunge's [POG](https://github.com/JanLunge/pog). That firmware and its layout are kept on the
 [`kmk` branch](../../tree/kmk) (tag `kmk-final`).
@@ -126,6 +134,7 @@ same and one `.vil` file loads on all of them.
 | `layout/cornelious.vil` | **The layout.** Vial export of the Pilot W-Corne. Everything else follows from it. |
 | `layout/w-corne-vial.json` | The W-Corne's own Vial definition, read from its firmware (reference). |
 | `qmk/keyboards/cornelious/` | The QMK keyboard. Copied into vial-qmk at build time. |
+| `qmk/keyboards/cornelious/cornelious.c` | Behaviour shared by every board built here (Alt+Tab that keeps Alt held while a layer is held). |
 | `qmk/keyboards/cornelious/<board>/` | One folder per physical board: controller and wiring. |
 | `qmk/keyboards/cornelious/keymaps/vial/` | Shared Vial keymap. `keymap.c` and `layout_settings.h` are generated from the `.vil`. |
 | `scripts/build.sh`, `scripts/build.ps1` | Build firmware (Linux or WSL / Windows through WSL). |
