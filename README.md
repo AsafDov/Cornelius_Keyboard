@@ -189,15 +189,20 @@ with the firmware and the `.vil`.
 ### Flashing an RP2040 board
 
 1. Put it in bootloader mode:
-   - QMK already on it: double-tap the reset button, or hold the top-left key while
-     plugging in (this also clears the board's saved Vial changes).
+   - QMK already on it: `python scripts/vial_tool.py bootloader` (no keys to press),
+     or double-tap the reset button, or hold the top-left key while plugging in.
    - Waveshare RP2040-Zero: hold **BOOT**, tap **RESET**.
    - CircuitPython/KMK on it: in its REPL run
      `import microcontroller; microcontroller.on_next_reset(microcontroller.RunMode.UF2); microcontroller.reset()`
 2. A drive called `RPI-RP2` appears. Copy `firmware/cornelious_<board>_vial.uf2` onto it.
 3. The board reboots as a Vial keyboard, already holding the layout.
-4. Check it in Vial: the **Matrix tester** tab (unlock: hold the top-left and
-   top-right corner keys) should light the right key for every key you press.
+4. Check it in Vial: the **Matrix tester** tab should light the right key for every
+   key you press.
+
+The firmware is built in Vial's **insecure mode** (`VIAL_INSECURE` in
+`keymaps/vial/rules.mk`): Vial never asks you to hold keys to unlock, on any PC. The
+trade-off is that any program on the PC could use the matrix tester or reboot the
+board into its bootloader without you touching it.
 
 ### Adding a new Corne
 
