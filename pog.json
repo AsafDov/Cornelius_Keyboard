@@ -353,7 +353,7 @@
         ],
         [
             "KC.CAPS",
-            "KC.TRNS",
+            "customkeys.ALT_TAB",
             "KC.TRNS",
             "customkeys.PREV_TAB",
             "customkeys.NEXT_TAB",
@@ -487,10 +487,10 @@
             "KC.DEL",
             "KC.ENT",
             "KC.BSPC",
-            "KC.MINS",
-            "KC.UNDERSCORE",
             "KC.TRNS",
+            "KC.UNDERSCORE",
             "KC.ENT",
+            "KC.TO(0)",
             "KC.N0",
             "KC.TRNS",
             "KC.TRNS",
@@ -673,7 +673,7 @@
     "vbusPin": "VBUS_SENSE",
     "splitUsePio": true,
     "splitFlip": false,
-    "spitUartFlip": false,
+    "splitUartFlip": false,
     "coordMap": [
         [
             "095",
@@ -750,5 +750,5 @@
         "macros"
     ],
     "flashingMode": "automatic",
-    "lastEdited": "2025-07-21 17:03"
+    "lastEdited": "2026-08-02 19:01"
 }
