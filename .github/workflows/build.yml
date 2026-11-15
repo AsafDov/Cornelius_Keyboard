@@ -1,0 +1,41 @@
+name: Build firmware
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/cornelious
+          key: cornelious-${{ hashFiles('scripts/build.sh') }}
+
+      - name: Build all boards
+        run: bash scripts/build.sh
+
+      - name: Generated keymap is in sync with layout/cornelious.vil
+        run: |
+          git diff --exit-code -- qmk/keyboards/cornelious/keymaps/vial/ || {
+            echo "::error::keymap.c is out of date. Run scripts/build.sh and commit the result."
+            exit 1
+          }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cornelious-firmware
+          path: firmware/*.uf2
+
+      - name: Release (on tags)
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${GITHUB_REF_NAME}" firmware/*.uf2 layout/cornelious.vil --title "${GITHUB_REF_NAME}" --generate-notes

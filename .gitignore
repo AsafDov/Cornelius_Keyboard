@@ -1,0 +1,6 @@
+# build output (CI publishes the .uf2 files as artifacts / releases)
+/firmware/
+# auto-cloned helpers (vial-gui)
+/.cache/
+__pycache__/
+*.pyc

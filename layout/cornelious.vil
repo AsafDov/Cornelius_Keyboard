@@ -1,0 +1,1267 @@
+{
+ "version": 1,
+ "uid": 3904610095205992439,
+ "layout": [
+  [
+   [
+    "KC_GESC",
+    "KC_Q",
+    "KC_W",
+    "KC_E",
+    "KC_R",
+    "KC_T",
+    "KC_RCTRL",
+    "KC_Y",
+    "KC_U",
+    "KC_I",
+    "KC_O",
+    "KC_P"
+   ],
+   [
+    "LALT_T(KC_TAB)",
+    "KC_A",
+    "KC_S",
+    "KC_D",
+    "KC_F",
+    "KC_G",
+    "KC_RSHIFT",
+    "KC_H",
+    "KC_J",
+    "KC_K",
+    "KC_L",
+    "KC_SCOLON"
+   ],
+   [
+    "KC_LGUI",
+    "KC_Z",
+    "KC_X",
+    "KC_C",
+    "KC_V",
+    "KC_B",
+    -1,
+    "KC_N",
+    "KC_M",
+    "KC_COMMA",
+    "KC_DOT",
+    "KC_SLASH"
+   ],
+   [
+    "TG(2)",
+    "TG(1)",
+    -1,
+    "LCTL_T(KC_BSPACE)",
+    "LT1(KC_SPACE)",
+    "LSFT_T(KC_ENTER)",
+    "RSFT_T(KC_ENTER)",
+    "LT2(KC_SPACE)",
+    "KC_DELETE",
+    "KC_BSPACE",
+    "KC_QUOTE",
+    "KC_DELETE"
+   ]
+  ],
+  [
+   [
+    "LCTL(KC_GRAVE)",
+    "LGUI(KC_1)",
+    "LGUI(KC_2)",
+    "LGUI(KC_3)",
+    "LGUI(KC_4)",
+    "LGUI(KC_5)",
+    "KC_PGUP",
+    "RSFT(KC_HOME)",
+    "KC_HOME",
+    "KC_UP",
+    "KC_END",
+    "RSFT(KC_END)"
+   ],
+   [
+    "RALT(KC_TAB)",
+    "TD(11)",
+    "LCTL(KC_S)",
+    "LCG(KC_LEFT)",
+    "TD(10)",
+    "LCG(KC_RIGHT)",
+    "KC_PGDOWN",
+    "LCTL(KC_LEFT)",
+    "KC_LEFT",
+    "KC_DOWN",
+    "KC_RIGHT",
+    "LCTL(KC_RIGHT)"
+   ],
+   [
+    "LSFT(KC_LALT)",
+    "LCTL(KC_Z)",
+    "LCTL(KC_X)",
+    "LCTL(KC_C)",
+    "LCTL(KC_V)",
+    "LCTL(KC_B)",
+    -1,
+    "C_S(KC_LEFT)",
+    "RSFT(KC_LEFT)",
+    "KC_COMMA",
+    "RSFT(KC_RIGHT)",
+    "C_S(KC_RIGHT)"
+   ],
+   [
+    "KC_TRNS",
+    "TO(0)",
+    -1,
+    "KC_BSPACE",
+    "LT1(KC_SPACE)",
+    "KC_SPACE",
+    "KC_ENTER",
+    "LCTL(KC_BSPACE)",
+    "LCTL(KC_DELETE)",
+    "KC_INSERT",
+    "M0",
+    "KC_ESCAPE"
+   ]
+  ],
+  [
+   [
+    "KC_GRAVE",
+    "KC_1",
+    "KC_2",
+    "KC_3",
+    "KC_4",
+    "KC_5",
+    "KC_EQUAL",
+    "KC_6",
+    "KC_7",
+    "KC_8",
+    "KC_9",
+    "KC_0"
+   ],
+   [
+    "KC_TRNS",
+    "LSFT(KC_1)",
+    "LSFT(KC_2)",
+    "LSFT(KC_3)",
+    "LSFT(KC_4)",
+    "LSFT(KC_5)",
+    "KC_MINUS",
+    "LSFT(KC_6)",
+    "LSFT(KC_7)",
+    "LSFT(KC_8)",
+    "LSFT(KC_9)",
+    "LSFT(KC_0)"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "LSFT(KC_BSLASH)",
+    "KC_MINUS",
+    "LSFT(KC_MINUS)",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "TO(0)",
+    "KC_TRNS",
+    -1,
+    "KC_BSPACE",
+    "KC_KP_MINUS",
+    "LSFT(KC_MINUS)",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_F11",
+    "KC_TRNS",
+    "KC_TRNS"
+   ]
+  ],
+  [
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ]
+  ],
+  [
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ]
+  ],
+  [
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ]
+  ],
+  [
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ]
+  ],
+  [
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ],
+   [
+    "KC_TRNS",
+    "KC_TRNS",
+    -1,
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS",
+    "KC_TRNS"
+   ]
+  ]
+ ],
+ "encoder_layout": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "layout_options": -1,
+ "macro": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "vial_protocol": 6,
+ "via_protocol": 9,
+ "tap_dance": [
+  [
+   "KC_0",
+   "KC_NO",
+   "KC_F11",
+   "KC_NO",
+   150
+  ],
+  [
+   "KC_1",
+   "KC_NO",
+   "KC_F1",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_2",
+   "KC_NO",
+   "KC_F2",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_3",
+   "KC_NO",
+   "KC_F3",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_4",
+   "KC_NO",
+   "KC_F4",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_5",
+   "KC_NO",
+   "KC_F5",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_6",
+   "KC_NO",
+   "KC_F6",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_7",
+   "KC_NO",
+   "KC_F7",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_8",
+   "KC_NO",
+   "KC_F8",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_9",
+   "KC_NO",
+   "KC_F9",
+   "KC_NO",
+   120
+  ],
+  [
+   "LCTL(KC_F)",
+   "KC_NO",
+   "C_S(KC_F)",
+   "KC_NO",
+   200
+  ],
+  [
+   "LCTL(KC_A)",
+   "KC_LALT",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   200
+  ]
+ ],
+ "combo": [
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ],
+  [
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO",
+   "KC_NO"
+  ]
+ ],
+ "key_override": [
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  },
+  {
+   "trigger": "KC_NO",
+   "replacement": "KC_NO",
+   "layers": 65535,
+   "trigger_mods": 0,
+   "negative_mod_mask": 0,
+   "suppressed_mods": 0,
+   "options": 7
+  }
+ ],
+ "alt_repeat_key": [],
+ "settings": {
+  "1": 0,
+  "2": 50,
+  "3": 0,
+  "4": 175,
+  "5": 5,
+  "6": 5000,
+  "7": 500,
+  "8": 0,
+  "9": 10,
+  "10": 20,
+  "11": 8,
+  "12": 10,
+  "13": 30,
+  "14": 10,
+  "15": 80,
+  "16": 8,
+  "17": 40,
+  "18": 50,
+  "19": 80,
+  "20": 5,
+  "21": 0
+ }
+}
